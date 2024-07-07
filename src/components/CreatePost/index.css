@@ -2,15 +2,16 @@
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #1f242a;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: black;
+  border: 1px solid #66fcf257;
 }
 
 .create-post h1 {
   margin-top: 0;
-  color: black;
+  color: #66fcf1;
 }
 
 .create-post form {
@@ -21,28 +22,45 @@
 .create-post label {
   margin-bottom: 5px;
   font-weight: bold;
+  color: white;
 }
 
 .create-post input,
 .create-post textarea {
   margin-bottom: 15px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #66fcf257;
   border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  outline: none;
 }
 
 .create-post button {
   padding: 10px 20px;
-  border: none;
+  border: 1px solid #66fcf1;
   cursor: pointer;
+  width: 150px;
+  height: auto;
   font-size: 16px;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #66fcf1;
+  transition: all 0.3s;
 }
 
 .create-post button:hover {
-  background-color: #0056b3;
+  background-color: #66fcf1;
+  box-shadow: 1px 1px 15px #91fff8;
+  color: black;
+}
+
+.create-post input:hover {
+  box-shadow: 1px 1px 15px #91fff8a8;
+}
+
+.create-post textarea:hover {
+  box-shadow: 1px 1px 15px #91fff8a8;
 }
 
 .create-post .image-preview {
