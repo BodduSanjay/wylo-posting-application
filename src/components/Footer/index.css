@@ -1,0 +1,35 @@
+.footer {
+  display: none;
+  background-color: black;
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+  border-top: 1px solid gray;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 500px;
+}
+
+.footer-nav a {
+  color: #fff;
+  margin: 0 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+  }
+}
