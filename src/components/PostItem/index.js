@@ -38,11 +38,11 @@ const PostItem = ({ post, index, setPosts, posts }) => {
         </button>
         <Link to={`/edit/${index}`}>
           <button>
-            <MdEdit size={20} color="black" />
+            <MdEdit size={20} color="#66fcf1" />
           </button>
         </Link>
         <button onClick={handleDelete}>
-          <MdDeleteOutline size={20} />
+          <MdDeleteOutline size={20} color="#66fcf1" />
         </button>
       </div>
     </div>

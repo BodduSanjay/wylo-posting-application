@@ -10,13 +10,13 @@ const Footer = () => {
     <footer className="footer">
       <nav className="footer-nav">
         <Link to="/">
-          <IoMdHome size={30} />
+          <IoMdHome size={30} color="#66fcf1" />
         </Link>
         <Link to="/create">
-          <CiSquarePlus size={30} />
+          <CiSquarePlus size={30} color="#66fcf1" />
         </Link>
         <Link to="/liked">
-          <FaRegHeart size={30} />
+          <FaRegHeart size={30} color="#66fcf1" />
         </Link>
       </nav>
     </footer>

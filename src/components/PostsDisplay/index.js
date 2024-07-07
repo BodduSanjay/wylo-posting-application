@@ -6,7 +6,7 @@ import "./index.css";
 const PostsDisplay = ({ posts, setPosts }) => {
   return (
     <div className="posts-display">
-      <h1>Posts</h1>
+      <h1 className="posts-heading">Posts</h1>
       {posts.length === 0 ? (
         <div className="no-posts">
           <p>No posts created</p>

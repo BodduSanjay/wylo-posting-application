@@ -7,7 +7,7 @@
   width: 100%;
   bottom: 0;
   justify-content: center;
-  border-top: 1px solid gray;
+  border-top: 1px solid #66fcf257;
 }
 
 .footer-nav {
@@ -25,7 +25,7 @@
 }
 
 .footer-nav a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #66fcf257;
 }
 
 @media (max-width: 768px) {
